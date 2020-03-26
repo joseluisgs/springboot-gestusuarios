@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "cc634b97-d073-4e1d-9baf-1f5fffa24b63",
+		"name": "Gestion Usuarios Seguridad",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Nuevo usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\":\"usuario\",\n\t\"password\": \"usuario\",\n\t\"avatar\": \"https://api.adorable.io/avatars/124/usuario@usuario.com.png\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
