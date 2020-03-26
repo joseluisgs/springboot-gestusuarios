@@ -33,6 +33,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+
+// Entidad para lmacenar usuarios
 public class UserEntity implements UserDetails {
 
     private static final long serialVersionUID = 6189678452627071360L;

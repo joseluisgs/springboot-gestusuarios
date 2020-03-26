@@ -11,8 +11,8 @@ Ejemplo de como hacer un API REST en Springboot con elementos de Seguridad
 ### Desarrollo
 * 25/03/2020: Inicio del proyecto. Configuración Spring Security
 * 25/03/2020: Modelo de usuario. Entidad, Rol, Servicio y Repositorio
-* 26/03/2020: UserDetailsService. Registro de usuario (Controladior y DTO)
-
+* 26/03/2020: UserDetailsService. Registro de usuario (Controlador y DTO)
+* 26/03/2020: Fin
 
 ##### Ejecución
 * http://localhost:8080/
